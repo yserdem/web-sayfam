@@ -1,0 +1,158 @@
+.about-container {
+    height: 671px;
+    position: relative;
+}
+
+.wrap {
+    display: flex;
+    height: 100%;
+}
+
+.image {
+    position: absolute;
+    width: 24.3%;
+    height: 56%;
+    top: 148px;
+    left: 59.08%;
+    border-radius: 18px;
+}
+
+.div1 {
+    height: 100%;
+    flex: 7;
+    background-color: #4731D3;
+}
+
+.translate {
+    position: relative;
+    width: 13.7%;
+    height: 18px;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    top: 35px;
+    left: 84%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #CAF181;
+
+}
+
+.about-h1 {
+    position: relative;
+    height: 72px;
+    top: 37px;
+    left: 23.71%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 72px;
+    color: #CBF281;
+    margin: 0;
+}
+
+.about-main {
+    position: relative;
+    left: 23.71%;
+    top: 114.89px;
+    width: 528.88px;
+    height: 118px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 110%;
+    /* or 59px */
+
+    color: #CBF281;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.about-content {
+    width: 528.88px;
+    height: 58px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.about-links {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+}
+
+.about-links button {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 12px;
+    gap: 10px;
+
+    width: 139px;
+    height: 52px;
+
+    /* Default/white */
+
+    background: #FFFFFF;
+    /* Default/indigo/800 */
+
+    border: 1px solid #3730A3;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+
+    /* Default/indigo/800 */
+
+    color: #3730A3;
+
+}
+
+.div2 {
+    height: 100%;
+    flex: 3;
+    background-color: #CBF281;
+}
